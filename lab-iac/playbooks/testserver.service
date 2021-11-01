@@ -1,0 +1,13 @@
+[Unit]
+Description=Test service
+
+[Service]
+User=root
+Group=root
+ExecStart=/opt/testserver.py
+Environment="MYSQL_HOST=REPLACEME"
+Environment="MYSQL_USER=REPLACEME"
+Environment="MYSQL_PASSWORD=REPLACEME"
+
+[Install]
+WantedBy=multi-user.target

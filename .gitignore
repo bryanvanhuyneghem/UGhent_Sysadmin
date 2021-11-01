@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+*.pyc
+training_set.csv
+*.zip
+*.tar.xz
+.vscode
+*.log
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.gz
+
+# We currently don't want the devcontainer stuff
+.devcontainer/
