@@ -1,4 +1,4 @@
-# Besturingssystemen III assignment submissions
+# Sys admin
 
 This repository contains the assignment submissions of Bryan Van Huyneghem.
 
